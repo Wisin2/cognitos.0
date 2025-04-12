@@ -13,7 +13,7 @@ div{
     height: 100vh;
    display: grid;
     grid-template:
-    "nav aside header" 5rem
+    "nav aside header" 15rem
     "nav aside main" auto
     "nav aside footer" 2rem /
     15rem 17rem auto; 
