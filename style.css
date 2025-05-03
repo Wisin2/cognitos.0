@@ -69,7 +69,34 @@ aside {
 footer {
     grid-area: footer;
     border: 1rem solid gray;
-    height: 1rem;
+    height: 4rem;
+    display: flex;
+}
+
+#botonMensaje {
+    margin: auto auto;
+    background: blueviolet;
+    color: aqua;
+    border-radius: 2rem;
+    border: none;
+    width: 20rem;
+    height: 2rem; 
+    
+}
+
+#botonMensaje:hover {
+    background: red;
+    cursor: pointer;
+}
+
+#botonmensaje:active {
+    background: rebeccapurple;
+}
+
+#mostrarTexto {
+    border: 1px solid purple;
+    width: 50rem;
+    height: 2rem;
 }
 
 main img{
